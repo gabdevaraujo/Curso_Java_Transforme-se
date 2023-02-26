@@ -10,6 +10,7 @@ public class Ex8Distancia {
         
         System.out.println("Digite a distância em km: ");
         double distancia = scan.nextDouble();
+	//Não deu erro por não iniciar essa variável? double preco = 0.0;		
         double preco;
         if (distancia <= 200) {
             preco = distancia * 0.5;
